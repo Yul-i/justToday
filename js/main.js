@@ -206,15 +206,6 @@ $(function(){
    })
 
 
-  
-   // 좌우스와이프======================================
-   $('#mainPage').bind('swipeleft', function(event){
-      $.mobile.changePage('#calPage', {transition:'slide', reverse:true});
-   });
-   $('#calPage').bind('swiperight', function(event){
-      $.mobile.changePage('#mainPage', {transition:'slide'});
-   });
-
    // todolist 스와이프================================================== 
    function touchEvent() {  
       $('.todolist-content').swipe({
